@@ -1,0 +1,18 @@
+function printDate(){
+   console.log(Date.now())
+}
+
+¿Cuantos principios estoy violando 
+en este código?
+
+S
+	Calcula una nueva fecha
+	Imprime una fecha
+D
+	Dependencia del objeto Console
+	Dependencia del object Date
+
+
+function printDate(date,writer){
+   writer(date)
+}
