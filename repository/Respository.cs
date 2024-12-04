@@ -32,7 +32,7 @@ public class User : EntityBase
 }
 
 public interface IDatabase<T> where T:EntityBase{
-    ICollection<T> Data{get;}
+   protected ICollection<T> Data{get;}
 }
 public interface IAdd<T>:IDatabase<T> where T:EntityBase{
     void Add(T entity){
@@ -81,7 +81,7 @@ public class CreateCustomer{
         this.repository = repository;
     }
     public void create(){
-        var customer = new Customer(Guid.NewGuid());
+        var customer = new Customer(Guid.NewGuid());                
         repository.Add(customer);
     }
 }
