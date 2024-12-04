@@ -17,10 +17,7 @@ class Pizza : EntityBase{
         Name = name;
         Description = description;
         Url = url;
-        foreach (var item in ingredients)
-        {
-            this.ingredients.Add(item);
-        }
+        this.ingredients = ingredients.ToHashSet();
         
     }
     public void Update(string name, string description, string url){
