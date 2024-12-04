@@ -33,7 +33,6 @@ class Pizza : EntityBase{
     }
 
     public static Pizza Create(string name, string description, string url, IEnumerable<Ingredient> ingredients){
-        var pizza = new Pizza(Guid.NewGuid(), name, description, url, ingredients);        
-        return pizza;
+        return new Pizza(Guid.NewGuid(), name, description, url, ingredients);        
     }   
 }
