@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 namespace Repository;
 
-public class EntityBase{
+public abstract class EntityBase{
     public Guid Id {get;init;}
 
     public EntityBase(Guid id) => Id = id;
@@ -18,6 +18,19 @@ public class EntityBase{
         return Id.GetHashCode();
     }
 
+}
+
+public class Customer : EntityBase
+{
+    public Customer(Guid id) : base(id)
+    {
+    }
+}
+public class User : EntityBase
+{
+    public User(Guid id) : base(id)
+    {
+    }
 }
 
 public interface IDatabase<T> where T:EntityBase{
@@ -53,18 +66,7 @@ public interface IReposiroty<T,ID>:IAdd<T>,IUpdate<T,ID>,IRemove<T,ID> where T:E
 
 }
 
-public class Customer : EntityBase
-{
-    public Customer(Guid id) : base(id)
-    {
-    }
-}
-public class User : EntityBase
-{
-    public User(Guid id) : base(id)
-    {
-    }
-}
+
 
 public class ServiceCustomer : IReposiroty<Customer, Guid>
 {
