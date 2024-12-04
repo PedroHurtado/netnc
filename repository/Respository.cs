@@ -1,5 +1,3 @@
-using System.ComponentModel;
-
 namespace Repository;
 
 public abstract class EntityBase{
@@ -66,14 +64,12 @@ public interface IReposiroty<T,ID>:IAdd<T>,IUpdate<T,ID>,IRemove<T,ID> where T:E
 
 }
 
-
-
-public class ServiceCustomer : IReposiroty<Customer, Guid>
+public class RepositoryCustomer : IReposiroty<Customer, Guid>
 {
     private static readonly ISet<Customer> customers = new HashSet<Customer>(); 
     public ICollection<Customer> Data => customers;
 }
-public class ServiceUSer : IGet<User, Guid>
+public class RepositoryUSer : IGet<User, Guid>
 {
     private static readonly ISet<User> users = new HashSet<User>(); 
     public ICollection<User> Data => users;
