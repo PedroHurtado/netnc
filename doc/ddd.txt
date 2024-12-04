@@ -1,0 +1,8 @@
+Entidades
+    Son clases que son iguales a otra clase cuando su identificador es el mismo
+    Persona
+ValueObject
+    Una clase que es igual a otra cuando todos sus atributos son iguales
+    Direccion de persona, que son inmutables
+Relaciones
+    Pizza (1)->(n) Ingredients

@@ -12,3 +12,4 @@ C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8
 C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.pdb
 C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.genruntimeconfig.cache
 C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\ref\linqc#.dll
+c:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.sourcelink.json

@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Record;
+// See https://aka.ms/new-console-template for more information
 
 //Extension method a.between(5,15)
 /*
@@ -8,6 +9,9 @@
     Clases
     static (this <type> value)
 */
+
+var text = new TestEntity();
+var textRecord = new TextRecord();
 
 List<int> list = [
     1,2,3,4,5,6,7 
