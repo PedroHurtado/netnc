@@ -74,3 +74,14 @@ public class RepositoryUSer : IGet<User, Guid>
     private static readonly ISet<User> users = new HashSet<User>(); 
     public ICollection<User> Data => users;
 }
+
+public class CreateCustomer{
+    public readonly IAdd<Customer> repository;
+    public CreateCustomer(IAdd<Customer> repository){
+        this.repository = repository;
+    }
+    public void create(){
+        var customer = new Customer(Guid.NewGuid());
+        repository.Add(customer);
+    }
+}
