@@ -77,9 +77,7 @@ public class RepositoryUSer : IGet<User, Guid>
 
 public class CreateCustomer{
     public readonly IAdd<Customer> repository;
-    public CreateCustomer(IAdd<Customer> repository){
-        this.repository = repository;
-    }
+    public CreateCustomer(IAdd<Customer> repository) => this.repository = repository;
     public void create(){
         var customer = new Customer(Guid.NewGuid());                
         repository.Add(customer);
