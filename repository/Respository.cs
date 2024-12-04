@@ -21,7 +21,7 @@ public class EntityBase{
 }
 
 public interface IDatabase<T> where T:EntityBase{
-    ISet<T> Data{get;}
+    ICollection<T> Data{get;}
 }
 public interface IAdd<T>:IDatabase<T> where T:EntityBase{
     void Add(T entity){
@@ -69,10 +69,10 @@ public class User : EntityBase
 public class ServiceCustomer : IReposiroty<Customer, Guid>
 {
     private static ISet<Customer> customers = new HashSet<Customer>(); 
-    public ISet<Customer> Data => customers;
+    public ICollection<Customer> Data => customers;
 }
 public class ServiceUSer : IGet<User, Guid>
 {
     private static ISet<User> users = new HashSet<User>(); 
-    public ISet<User> Data => users;
+    public ICollection<User> Data => users;
 }
