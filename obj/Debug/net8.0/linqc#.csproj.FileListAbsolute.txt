@@ -1,0 +1,14 @@
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\bin\Debug\net8.0\linqc#.exe
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\bin\Debug\net8.0\linqc#.deps.json
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\bin\Debug\net8.0\linqc#.runtimeconfig.json
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\bin\Debug\net8.0\linqc#.dll
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\bin\Debug\net8.0\linqc#.pdb
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.AssemblyInfoInputs.cache
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.AssemblyInfo.cs
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.dll
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\refint\linqc#.dll
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.pdb
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\linqc#.genruntimeconfig.cache
+C:\Users\Home\Documents\Cursos 2024\12-Diciembre\.Net core\linqc#\obj\Debug\net8.0\ref\linqc#.dll
