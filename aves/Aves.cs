@@ -29,9 +29,9 @@ public class Paloma :AveVoladora{
 }
 
 public static class Printer{
-    public static Action<Ave,Action<Object>> printAve = (ave,writer)=>writer(ave);
-    public static Action<AveVoladora,Action<Object>> printAveVoladora = (ave,writer)=>writer(ave);
-    public static Action<AveNoVoladora,Action<Object>> printAveNoVoladora = (ave,writer)=>writer(ave);
+    public static Action<Ave,Action<Object>> PrintAve => (ave,writer)=>writer(ave);
+    public static Action<AveVoladora,Action<Object>> PrintAveVoladora => (ave,writer)=>writer(ave);
+    public static Action<AveNoVoladora,Action<Object>> PrintAveNoVoladora => (ave,writer)=>writer(ave);
 }
 
 public class TestAves
@@ -40,10 +40,10 @@ public class TestAves
     {
         var pinguino = new Pinguino(5);
         var aguila = new Aguila(10,100);
-        Printer.printAve(pinguino,Console.WriteLine);
-        Printer.printAve(aguila,Console.WriteLine);
-        Printer.printAveVoladora(aguila,Console.WriteLine);
-        Printer.printAveNoVoladora(pinguino,Console.WriteLine);
+        Printer.PrintAve(pinguino,Console.WriteLine);
+        Printer.PrintAve(aguila,Console.WriteLine);
+        Printer.PrintAveVoladora(aguila,Console.WriteLine);
+        Printer.PrintAveNoVoladora(pinguino,Console.WriteLine);
     }    
 }
 
