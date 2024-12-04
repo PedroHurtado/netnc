@@ -68,11 +68,11 @@ public class User : EntityBase
 
 public class ServiceCustomer : IReposiroty<Customer, Guid>
 {
-    private static ISet<Customer> customers = new HashSet<Customer>(); 
+    private static readonly ISet<Customer> customers = new HashSet<Customer>(); 
     public ICollection<Customer> Data => customers;
 }
 public class ServiceUSer : IGet<User, Guid>
 {
-    private static ISet<User> users = new HashSet<User>(); 
+    private static readonly ISet<User> users = new HashSet<User>(); 
     public ICollection<User> Data => users;
 }
