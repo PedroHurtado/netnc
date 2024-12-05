@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("linqc#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aceb75797fd4af6f209977eac326090ad6782f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e093b7c775a652fcf35ea2fcc8a52a9b17ffc08b")]
 [assembly: System.Reflection.AssemblyProductAttribute("linqc#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("linqc#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
