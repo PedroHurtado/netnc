@@ -1,3 +1,4 @@
+using System.Collections.ObjectModel;
 using System.Reflection.Metadata;
 using Repository;
 
@@ -10,8 +11,7 @@ class Pizza : EntityBase
     public string Description { get; set; }
     public string Url { get; set; }
     public decimal Price => ingredients.Sum(x => x.Cost) * PROFIT;
-    public List<Ingredient> Ingredients => [.. ingredients];
-
+    public ReadOnlyCollection<Ingredient> Ingredients => new([.. ingredients]);
     private readonly ISet<Ingredient> ingredients = new HashSet<Ingredient>();
     protected Pizza(Guid id, string name, string description, string url, ISet<Ingredient> ingredients) : base(id)
     {
